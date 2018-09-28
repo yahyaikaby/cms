@@ -9,7 +9,7 @@
 
 var dropdowns = document.querySelectorAll('.dropdown:not(.is-hoverable)');
 if (dropdowns.length > 0) {
-  
+
   dropdowns.forEach(function (el) {
     if (el.classList.contains('is-active')) {
         el.classList.remove('is-active');
